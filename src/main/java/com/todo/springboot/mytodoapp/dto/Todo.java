@@ -53,12 +53,12 @@ public class Todo implements Serializable {
         this.targetDate = targetDate;
     }
 
-    public Boolean getDone() {
+    public Boolean isDone() {
         return isDone;
     }
 
-    public void setDone(Boolean done) {
-        isDone = done;
+    public void setDone(Boolean isDone) {
+        this.isDone = isDone;
     }
 
     @Override
